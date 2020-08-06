@@ -1,10 +1,110 @@
 <!DOCTYPE html>
 <html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Elizabeth Y. Huang</title>
+    <meta name="viewport" content="width=device-width; initial-scale=1.0">
+	<link rel="stylesheet" href="css/main.css">
+	<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/x-mathjax-config">
+		MathJax.Hub.Config({
+			extensions: ["tex2jax.js","TeX/AMSmath.js","TeX/AMSsymbols.js"],
+			jax: ["input/TeX", "output/HTML-CSS"],
+			tex2jax: {
+				inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+				displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+			},
+			"HTML-CSS": { availableFonts: ["TeX"] }
+		});
+	</script>
+	<script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_CHTML"></script>
+</head>
+
+<nav>
+	<ul class="nav" id="navList">
+		<li><a class="current" href="javascript: void(0)">Home</a></li>
+		<li><a href="publications.html">Publications</a></li>
+		<li class="menu"><a href="javascript: void(0)" style="font-size: 15px" onclick="navClick()">☰</a></li>
+	</ul>
+	<script>
+		function navClick() {
+			var x = document.getElementById("navList");
+			if (x.className === "nav") {
+				x.className += " responsive";
+			} else {
+				x.className = "nav";
+			}
+		}
+	</script>
+</nav>
+
 <body>
-
-<h1>Elizabeth Y. Huang</h1>
-
-  <p>I am a Ph.D. student on a non-persistent but eventually bounded trajectory to the stable equilibrium of taxes and aging. But if I encounter a large enough disturbance and become a billionaire, I will begin legal tax evasion.</p>
-
-  <p>This website is in under construction.
+  <!-- <p>I am a Ph.D. student on a non-persistent but eventually bounded trajectory to the stable equilibrium of taxes and aging. But if I encounter a large enough disturbance and become a billionaire, I will begin legal tax evasion.</p> -->
+  
+  <div style="margin-top: 12px; margin-bottom: 12px">
+		<div style="float: left; margin-right: 12px">
+			<!-- <a href="resources/GuosongYangHeadshot.jpg"><img src="resources/GuosongYangHeadshot.jpg" height="200" width="150"></a> -->
+		</div>
+		<div style="min-height: 200px; margin-left: 162px">
+			<h1 style="line-height: 1.5; margin-bottom: 12px">Elizabeth Y. Huang</h1>
+			<ul class="tight" style="list-style-type: none; padding-left: 0">
+				<li>Ph.D Candidate</li>
+				<li><a href="https://www.ccdc.ucsb.edu/">Center for Control, Dynamical Systems, and Computation</a> (CCDC)</li>
+				<li><a href="http://www.ece.ucsb.edu/">Department of Mechanical Engineering</a></li>
+				<li><a href="http://www.ucsb.edu/">University of California, Santa Barbara</a> (UCSB)</li>
+<!-- 				<li>Advisor: <a href="https://www.ece.ucsb.edu/~hespanha/">Jo&atilde;o P. Hespanha</a></li> -->
+		</div>
+	</div>
+	
+    <!-- <hr class="section"> -->
+    <!-- <h3><a name="News" style="color: black">News</a></h3> -->
+    <!-- <ul> -->
+        <!-- <li>Our paper <a href="resources/YSLH-SwTopEnt-MCSS.pdf">"Topological entropy of switched linear systems: General matrices and matrices with commutation relations"</a> has been accepted for publication in <i>Mathematics of Control, Signals, and Systems</i></li> -->
+        <!-- <li>Our paper <a href="resources/YPH-StbgAdptCtrl-CDC2019.pdf">"Adaptive learning in two-player Stackelberg games with continuous action sets"</a> has been published in <i>58th IEEE Conference on Decision and Control (CDC 2019)</i></li> -->
+        <!-- <li>Our paper <a href="resources/YHL-SwTopEntGES-HSCC2019.pdf">"On topological entropy and stability of switched linear systems"</a> has won the <strong>ACM SIGBED HSCC Best Paper Award</strong> at <i>22nd ACM International Conference on Hybrid Systems: Computation and Control (HSCC 2019)</i></li> -->
+    <!-- </ul> -->
+    
+    <hr class="section">
+    <h3><a name="Contact" style="color: black">Contact</a></h3>
+    <div style="margin-bottom: 20px">
+        Email: eyhuang@ucsb.edu<br>
+    </div>
+    
+    <hr class="section">
+	<h3><a name="Education" style="color: black">Education</a></h3>
+    <ul style="list-style-type: none; padding-left: 0">
+        <!-- <li>Ph.D. in Electrical and Computer Engineering, University of Illinois at Urbana-Champaign, Urbana, IL, USA, Oct. 2013&ndash;Aug. 2017<br> -->
+            <!-- Thesis advisor: <a href="http://liberzon.csl.illinois.edu/">Daniel Liberzon</a></li> -->
+        <li>B.S. in Mechanical Engineering, University of California at San Diego, San Diego, CA, USA, Sep. 2012&ndash;Jun. 2016</a></li>
+        <!-- <li><a href="resources/GuosongYangBio.pdf">A brief biographical sketch</a></li> -->
+        <!-- <li><a href="resources/GuosongYangCV.pdf">A complete CV</a></li> -->
+    </ul>
+    
+    <hr class="section">
+	<h3><a name="Research" style="color: black">Research interests</a></h3>
+    <ul class="tight" style="margin-bottom: 12px">
+        <li>Networked control systems</li>
+        <li>Multi-agent systems</li>
+        <li>Social network analysis</li>
+    </ul>
+	<!-- <div> -->
+        <!-- <a href="publications.html">A list of publications and preprints</a> -->
+	<!-- </div> -->
+	<!-- <div style=" margin-bottom: 20px"> -->
+	<!-- <a href="https://scholar.google.com/citations?user=xYYJOowAAAAJ&hl=en">My Google Scholar profile</a> -->
+	<!-- </div> -->
+	
+	<hr class="section">
+	<!-- Start of StatCounter Code for Default Guide -->
+	<script type="text/javascript">
+		var sc_project=11148970;
+		var sc_invisible=0;
+		var sc_security="2ae718cc";
+		var scJsHost = (("https:" == document.location.protocol) ? "https://secure." : "http://www.");
+		document.write("<sc"+"ript type='text/javascript' src='" + scJsHost+ "statcounter.com/counter/counter.js'></"+"script>");
+	</script>
+	<noscript><div class="statcounter"><a title="web analytics" href="http://statcounter.com/web-analytics/" target="_blank"><img class="statcounter" src="//c.statcounter.com/11148970/0/2ae718cc/0/" alt="web analytics"></a></div></noscript>
+	<!-- End of StatCounter Code for Default Guide -->
+</body>
 </html>
